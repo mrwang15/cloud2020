@@ -16,7 +16,7 @@ eureka:
       #单机就是自己
       defaultZone: http://eureka7001.com:7001/eureka/
 
-  server:
-    #关闭自我保护模式
-    enable-self-preservation: false
-    eviction-interval-timer-in-ms: 2000 # Eureka Server 清理 无效节点 的频率，默认 60000 毫秒（60 秒）。
+#  server:
+#    #关闭自我保护模式
+#    enable-self-preservation: false
+#    eviction-interval-timer-in-ms: 2000 # Eureka Server 清理 无效节点 的频率，默认 60000 毫秒（60 秒）。
